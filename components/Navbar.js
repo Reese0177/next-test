@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 const Navbar = () => (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary mb-2">
     <div className="container">
       <a className="navbar-brand" href="#">BitzPrice</a>
       <div className="collapse navbar-collapse">
