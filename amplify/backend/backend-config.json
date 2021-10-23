@@ -5,5 +5,39 @@
       "type": "cicd",
       "lastPushTimeStamp": "2021-10-23T18:51:04.107Z"
     }
+  },
+  "auth": {
+    "cognito4591fcfc": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation",
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "PREFERRED_USERNAME"
+        ],
+        "signupAttributes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": []
+        },
+        "mfaTypes": [],
+        "verificationMechanisms": []
+      }
+    }
+  },
+  "analytics": {
+    "nexttest": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "storage": {
+    "database": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    },
+    "storage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

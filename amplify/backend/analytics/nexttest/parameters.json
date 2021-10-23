@@ -1,0 +1,21 @@
+{
+    "appName": "nexttest",
+    "roleName": "pinpointLambdaRole9d20f781",
+    "cloudformationPolicyName": "cloudformationPolicy9d20f781",
+    "cloudWatchPolicyName": "cloudWatchPolicy9d20f781",
+    "pinpointPolicyName": "pinpointPolicy9d20f781",
+    "authPolicyName": "pinpoint_amplify_9d20f781",
+    "unauthPolicyName": "pinpoint_amplify_9d20f781",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -5,7 +5,7 @@ const Layout = (props) => (
     <div>
         <Head>
             <title>Bitzprice</title>
-            <link rel="stylesheet" href="https://bootswatch.com/5/slate/bootstrap.css"/>
+            <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.css"/>
         </Head>
         <Navbar/>
         <div className="container">
