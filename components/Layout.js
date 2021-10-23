@@ -5,9 +5,9 @@ const Layout = (props) => (
     <div>
         <Head>
             <title>Bitzprice</title>
-            <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.css"/>
+            <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.css"/>
         </Head>
-        <Navbar/>
+        <Navbar />
         <div className="container">
             {props.children}
         </div>
